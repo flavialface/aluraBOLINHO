@@ -31,3 +31,17 @@ font-size: 40px
 p {
     font-size: 30px
 }
+img {
+    height: 300px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+section {
+    padding-left: 20px;
+    padding- right:;
+}
