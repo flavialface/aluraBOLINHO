@@ -12,7 +12,7 @@ header {
     color: rgb(8, 8, 240);
 }
 
-section {
+.chamada {
     background:rgb(14, 102, 189);
 padding-bottom: 80px; 
 padding-top: 80px;
@@ -29,10 +29,7 @@ font-size: 40px
 }
 
 p {
-    font-size: 30px
-}
-img {
-    height: 300px;
+    font-size: 20px
 }
 
 .categoria-videos {
@@ -41,7 +38,22 @@ img {
     gap: 10px;
 }
 
-section {
+.categoria {
     padding-left: 20px;
-    padding- right:;
+    padding- right:20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+opacity: 0.5;
+height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(206, 45, 88);
+}
+
+.categoria h2 {
+    color:rgb(14, 102, 189);
 }
